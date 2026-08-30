@@ -103,11 +103,11 @@ A synthesizable, synchronous Finite State Machine (FSM) implemented in Verilog-2
 
 Simulation Analysis Checklist
 
-    * Asynchronous Reset: When rst = 1, the state immediately forces to S0 and timer initializes to 1.
+   * Asynchronous Reset: When rst = 1, the state immediately forces to S0 and timer initializes to 1.
 
-    * State Sequencing: The sequential machine transitions sequentially from S0 through S5 before returning to S0.
+   * State Sequencing: The sequential machine transitions sequentially from S0 through S5 before returning to S0.
 
-    * Output Mutex Validation: No condition permits conflicting non-red signals across both streets simultaneously.
+   * Output Mutex Validation: No condition permits conflicting non-red signals across both streets simultaneously.
 
 ## 6. License
 
