@@ -79,6 +79,7 @@ A synthesizable, synchronous Finite State Machine (FSM) implemented in Verilog-2
 ├── traffic_light_controller_tb.v    # Self-checking simulation testbench
 ├── dump.vcd                         # Simulation waveform trace file
 └── README.md                        # Technical documentation
+```
 
 ## 5. Verification and Simulation
 
